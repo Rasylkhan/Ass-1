@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ass 1</title>
+    <!--Aldiyar-->
+    <link rel="icon" type="image/x-icon" src="/Images/favicon.ico">
+  <style>
+    body{
+      background-color:#BBCDC5
+    }
+    figure {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+}
+figcaption {
+  background-color: #D5CDC0;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+    #window-1, #window-2 {
+      display: none;
+      position:absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      padding: 40px;
+      box-shadow: 0 0 10px rgba(0,0,0,.3);
+    background-color: #D5CDC0;
+    font-family:courier;
+    border-radius:10px;
+    border-style: solid;
+   }
+.text{
+  color:#ffffff
+}
+address{
+  color:#fff
+}
+a{
+  text-decoration: none;
+}
+table, th, td{
+  color:#ffffff;
+  border-radius: 3%;
+  border: solid white 2px; 
+}
+  </style>
+</head>
+<!--Rasylkhan-->
+<body>  
+  <button id="picture-1">
+    <figure>
+    <img src="/Images/God.jpg" alt="Picture Button 1">
+    <figcaption>Aldiyar Tursynov<br>(The best of the history)</figcaption>
+  </figure>
+  </button>
+  <button id="picture-2">
+    <figure> 
+      <img src="/Images/Me.jpg" alt="Picture Button 2">
+      <figcaption>Tutay Rasylkhan<br>(The Smallest Penis)</figcaption>
+    </button>
+    <!--Aldiyar-->
+  <div id="window-1">
+    <p class="text"><strong>Name</strong>:Tursynov Aldiyar<br><strong>Age</strong>:18<br><strong>Race</strong>:God<br><strong>Title</strong>:God of love, beauty, and sexuality<br><b>Top five waifu:</b>
+            <ol class="text">
+                <li>Mikasa Ackerman</li>
+                <li>Sasha Braus</li>
+                <li>Shinobu Kocho</li>
+                <li>Komi-san</li>
+                <li>Violet Evergarden</li>
+            </ol>
+    </p>
+    <table>
+  <tbody>
+    <tr>
+      <td>Date of birth:</td>
+      <td>04.12.2004</td>
+    </tr>
+    <tr>
+      <td>Gender:</td>
+      <td>Male</td>
+    </tr>
+    <tr>
+      <td>Status:</td>
+      <td>Alive</td>
+    </tr>
+    <tr>
+      <td>Height:</td>
+      <td>180 cm</td>
+    </tr>
+    <tr>
+      <td>Weight:</td>
+      <td>60 kg</td>
+    </tr>
+    <tr>
+      <td>Hobby:</td>
+      <td>Haikyuu,Video Games,Anime,Films</td>
+    </tr>
+    <tr>
+      <td>Phobias:</td>
+      <td>Ainur Musina,Acrophobia</td>
+    </tr>
+    <tr>
+      <td>Profession:</td>
+      <td>Cybersecurity</td>
+    </tr>
+</tbody>
+</table>
+    <address>
+      My contact information: <br>
+      <a href="mailto:221664@astanait.edu.kz">Сorporate email</a>.<br>
+      +7 707 952-69-20 <br>
+      Visit my social media:<br>
+      <a href="https://instagram.com/privet.molodoi?igshid=YmMyMTA2M2Y=">Instagram</a><br>
+      <p>@Aldiyar091-Telegram</p>
+    </address>
+    
+  </div>
+  <div id="window-2">
+    <p class="text"><strong>Name</strong>:Tutay Rasylkhan<br><strong>Age</strong>:17<br><strong>Race</strong>:Demigod<br><strong>Title</strong>:The smallest Penis<br><b>Top five waifu</b>
+        <ol class="text">
+            <li>Aldiyar Tursynov</li>
+            <li>Gray Fullbuster</li>
+            <li>xin qu</li>
+            <li>Pico "Boku no Pico"</li>
+            <li>Nagisa Shioto</li>
+        </ol></p>
+        <table>
+          <tbody>
+            <tr>
+              <td>Date of birth:</td>
+              <td>26.05.2005</td>
+            </tr>
+            <tr>
+              <td>Gender:</td>
+              <td>Chuckchi Ne’uchika Shaman</td>
+            </tr>
+            <tr>
+              <td>Status:</td>
+              <td>Dead inside &#128375;</td>
+            </tr>
+            <tr>
+              <td>Height:</td>
+              <td>177 cm</td>
+            </tr>
+            <tr>
+              <td>Weight:</td>
+              <td>64 kg</td>
+            </tr>
+            <tr>
+              <td>Hobby:</td>
+              <td>Reading,Video games,music</td>
+            </tr>
+            <tr>
+              <td>Phobias:</td>
+              <td>Entomophobia</td>
+            </tr>
+            <tr>
+              <td>Profession:</td>
+              <td>Cybersecurity</td>
+            </tr>
+          </tbody>
+        </table>
+        <address>
+          My contact information: <br>
+          <a href="mailto:221463@astanait.edu.kz">Сorporate email</a>.<br>
+          7-776-203-11-76 <br>
+          Visit my social media:<br>
+          <a href="https://www.instagram.com/rasylkhan_t/?hl=ru">Instagram</a><br>
+          <p>@Rasylkhanw-Telegram</p>
+        </address>
+  </div>
+    <!--Rasylkhan-->
+  <script>
+    var btn1 = document.getElementById("picture-1");
+    var btn2 = document.getElementById("picture-2");
+    var window1 = document.getElementById("window-1");
+    var window2 = document.getElementById("window-2");
+    btn1.addEventListener("click", function() {
+      window1.style.display = "block";
+      window2.style.display = "none";
+    });
+    btn2.addEventListener("click", function() {
+      window1.style.display = "none";
+      window2.style.display = "block";
+    });
+    window1.addEventListener("click", function() {
+      window1.style.display = "none";
+    });
+    window2.addEventListener("click", function() {
+      window2.style.display = "none";
+    });
+  </script>
+</body>
+</html>
