@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ass 1</title>
+    <!--Aldiyar-->
+    <link rel="icon" type="image/x-icon" src="images/favicon.ico">
+	<style>
+		#window-1, #window-2 {
+			display: none;
+			position:absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			background-color: #fff;
+			padding: 20px;
+			box-shadow: 0 0 10px rgba(0,0,0,.3);
+		}
+	</style>
+</head>
+<!--Rasylkhan-->
+<body>
+	<button id="picture-1">
+		<img src="Images/God.jpg" alt="Picture Button 1">
+	</button>
+	<button id="picture-2">
+		<img src="Images/Me.jpg" alt="Picture Button 2">
+	</button>
+    <!--aldiyar-->
+	<div id="window-1">
+		<p>Name:Tursynov Aldiyar<br>Age:18<br>Race:God<br>Title:The most beautifull human being ever<br>top five waifu:
+            <ol>
+                <li>Mikasa Ackerman</li>
+                <li>Sasha Braus</li>
+                <li>Shinobu Kocho</li>
+                <li>Komi-san</li>
+                <li>Violet Evergarden</li>
+            </ol>
+    </p>
+	</div>
+	<div id="window-2">
+		<p>Name:Tutay Rasylkhan<br>Age:17<br>Race:Demigod<br>Title:The Smallest Penis<br>Top five waifu:
+        <ol>
+            <li>Aldiyar Tursynov</li>
+            <li>Gray Fullbuster</li>
+            <li>xin qu</li>
+            <li>Pico "Boku no Pico"</li>
+            <li>Nagisa Shioto</li>
+        </ol></p>
+	</div>
+    <!--Rasylkhan-->
+	<script>
+		var btn1 = document.getElementById("picture-1");
+		var btn2 = document.getElementById("picture-2");
+		var window1 = document.getElementById("window-1");
+		var window2 = document.getElementById("window-2");
+		btn1.addEventListener("click", function() {
+			window1.style.display = "block";
+			window2.style.display = "none";
+		});
+		btn2.addEventListener("click", function() {
+			window1.style.display = "none";
+			window2.style.display = "block";
+		});
+		window1.addEventListener("click", function() {
+			window1.style.display = "none";
+		});
+		window2.addEventListener("click", function() {
+			window2.style.display = "none";
+		});
+	</script>
+</body>
+</html>
